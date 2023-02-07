@@ -15,104 +15,83 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <!-- <script src="js/main.js" defer></script> -->
-
-    
+  </head>
 
   <body>
+    <div id="bg" class="bg -visible">
+      <h1 class="page-title">
+        <span>全てのニーズに応える</span>
+        <span>「何でもサービス」</span>
+        <span>今すぐお見積もりを！</span>
+      </h1>
+    </div>
+    <!-- / bg -->
 
-  
-
-  <div id="bg" class="bg -visible">
-
-    <h1 class="page-title">
-      <span>全てのニーズに応える</span>
-      <span>「何でもサービス」</span>
-      <span>今すぐお見積もりを！</span>
-    </h1>
-
-  </div> <!-- / bg -->
-
-  <main>
-
-    <div class="copy-container">
-
-      <div class="copy-block">
-        <div>
-          <img src="img/img002.jpg" alt="">
-          <span class="copy">車のクリーニングも承ります。</span>
-        </div>
-        
-
-        <div>
-          <img src="img/img003.jpg" alt="">
-          <span class="copy">ペンキの塗装も承ります。</span>
+    <main>
+      <div class="grid">
+        <div class="card">
+          <img src="img/img002.jpg" alt="" />
+          <p class="copy">車のクリーニングも承ります。</p>
         </div>
 
-        <div>
-          <img src="img/img004.jpg" alt="">
-          <span class="copy">パソコンの修理も承ります。</span>
+        <div class="card">
+          <img src="img/img003.jpg" alt="" />
+          <p class="copy">ペンキの塗装も承ります。</p>
         </div>
 
-        <div>
-          <img src="img/img005.jpg" alt="">
-          <span class="copy">機械の修理も承ります。</span>
+        <div class="card">
+          <img src="img/img004.jpg" alt="" />
+          <p class="copy">パソコンの修理も承ります。</p>
+        </div>
+
+        <div class="card">
+          <img src="img/img005.jpg" alt="" />
+          <p class="copy">機械の修理も承ります。</p>
         </div>
       </div>
-    </div>
 
-    <!-- <div class="title-layout">
+      <!-- <div class="title-layout">
       <h2 class="title">お客様の反応</h2>
     </div> -->
 
-    <div class="title-layout">
-      <h2 class="title">お見積もりはこちらから</h2>
-    </div>
-
-    <form>
-
-      <div class="item">
-        <label for="name">お名前</label>
-        <input id="name" type="text" name="name">
-      </div>
-      <div class="item">
-        <label for="kana">ふりがな</label>
-        <input id="kana" type="text" name="kana">
-      </div>
-      <div class="item">
-        <label for="email">email</label>
-        <input id="email" type="text" name="email">
-      </div>
-      <div class="item">
-        <label for="tel">電話番号</label>
-        <input id="tel" type="tel" name="tel">
-      </div>
-      <div class="item">
-        <label for="content">依頼内容</label>
-        <input id="content" type="text" name="content">
+      <div class="title-layout">
+        <h2 class="title">お見積もりはこちらから</h2>
       </div>
 
-      <div class="item textarea">
-        <label for="other">その他連絡事項</label>
-        <textarea name="other" id="other" cols="100%" rows="5"></textarea>
-      </div>
+      <form>
+        <div class="item">
+          <label for="name">お名前</label>
+          <input id="name" type="text" name="name" />
+        </div>
+        <div class="item">
+          <label for="kana">ふりがな</label>
+          <input id="kana" type="text" name="kana" />
+        </div>
+        <div class="item">
+          <label for="email">email</label>
+          <input id="email" type="text" name="email" />
+        </div>
+        <div class="item">
+          <label for="tel">電話番号</label>
+          <input id="tel" type="tel" name="tel" />
+        </div>
+        <div class="item">
+          <label for="content">依頼内容</label>
+          <input id="content" type="text" name="content" />
+        </div>
 
+        <div class="item textarea">
+          <label for="other">その他連絡事項</label>
+          <textarea name="other" id="other" cols="100%" rows="5"></textarea>
+        </div>
 
+        <div class="button-block">
+          <button type="button">送信</button>
+          <button type="reset">入力内容を一括消去する</button>
+        </div>
+      </form>
+    </main>
 
-      <div class="button-block">
-        <button type="button">送信</button>
-        <button type="reset">入力内容を一括消去する</button>
-      </div>
-
-    </form>
-
-
-  </main>
-
-  <footer>&copy なんでも修理サービス</footer>
-
-
-
-
-
+    <footer>&copy なんでも修理サービス</footer>
   </body>
 </html>
